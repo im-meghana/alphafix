@@ -89,31 +89,31 @@ xattr -dr com.apple.quarantine /Applications/AlphaFix.app
 
 <table>
   <tr>
-    <td><img src="https://img.shields.io/badge/Full%20Metadata%20Transfer-FF6B35?style=flat-square" /></td>
+    <td>**Full Metadata Transfer**</td>
     <td>Copy date, GPS, camera model, make and lens from original to re-encoded file</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/UTC%20Timestamp%20Fix-FF6B35?style=flat-square" /></td>
+    <td>**UTC Timestamp Fix**</td>
     <td>Fix wrong dates in Ente, Google Photos, iCloud without touching a second file</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Batch%20Mode-FF6B35?style=flat-square" /></td>
+    <td>**Batch Mode**</td>
     <td>Process a whole folder at once — files matched by filename, any extension</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Auto%20Rename-FF6B35?style=flat-square" /></td>
+    <td>**Auto Rename**</td>
     <td>Rename output to <code>YYYY-MM-DD_HH-MM-SS - cameraname.ext</code> after fixing</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Drag%20%26%20Drop-FF6B35?style=flat-square" /></td>
+    <td>**Drag &amp; Drop**</td>
     <td>Drop files or folders straight onto the input areas</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Live%20Console-FF6B35?style=flat-square" /></td>
+    <td>**Live Console**</td>
     <td>See exactly what ExifTool is doing in real time</td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Cross--Platform-FF6B35?style=flat-square" /></td>
+    <td>**Cross-Platform**</td>
     <td>macOS, Windows and Linux</td>
   </tr>
 </table>
