@@ -87,15 +87,36 @@ xattr -dr com.apple.quarantine /Applications/AlphaFix.app
 
 ## Features
 
-| | |
-|---|---|
-| **Full metadata transfer** | Copy date, GPS, camera model, make and lens from original to re-encoded file |
-| **UTC timestamp fix** | Fix wrong dates in Ente, Google Photos, iCloud without touching a second file |
-| **Batch mode** | Process a whole folder at once — files matched by filename, any extension |
-| **Auto rename** | Rename output to `YYYY-MM-DD_HH-MM-SS - cameraname.ext` after fixing |
-| **Drag and drop** | Drop files or folders straight onto the input areas |
-| **Live console** | See exactly what ExifTool is doing in real time |
-| **Cross-platform** | macOS, Windows and Linux |
+<table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Full%20Metadata%20Transfer-FF6B35?style=flat-square" /></td>
+    <td>Copy date, GPS, camera model, make and lens from original to re-encoded file</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/UTC%20Timestamp%20Fix-FF6B35?style=flat-square" /></td>
+    <td>Fix wrong dates in Ente, Google Photos, iCloud without touching a second file</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Batch%20Mode-FF6B35?style=flat-square" /></td>
+    <td>Process a whole folder at once — files matched by filename, any extension</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Auto%20Rename-FF6B35?style=flat-square" /></td>
+    <td>Rename output to <code>YYYY-MM-DD_HH-MM-SS - cameraname.ext</code> after fixing</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Drag%20%26%20Drop-FF6B35?style=flat-square" /></td>
+    <td>Drop files or folders straight onto the input areas</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Live%20Console-FF6B35?style=flat-square" /></td>
+    <td>See exactly what ExifTool is doing in real time</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Cross--Platform-FF6B35?style=flat-square" /></td>
+    <td>macOS, Windows and Linux</td>
+  </tr>
+</table>
 
 ---
 
@@ -219,15 +240,43 @@ flutter build linux --release
 
 ## Tech Stack
 
-| | |
-|---|---|
-| [Flutter](https://flutter.dev/) | UI framework |
-| [Dart](https://dart.dev/) | Language |
-| [ExifTool](https://exiftool.org/) | Metadata engine by Phil Harvey |
-| `file_picker` | Native file picker dialog |
-| `desktop_drop` | Drag and drop support |
-| `flutter_svg` | SVG rendering |
-| `path` | Cross-platform path handling |
+<table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Flutter-54C5F8?style=flat-square&logo=flutter&logoColor=white" /></td>
+    <td><a href="https://flutter.dev/">Flutter</a></td>
+    <td>UI framework</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" /></td>
+    <td><a href="https://dart.dev/">Dart</a></td>
+    <td>Language</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/ExifTool-3A7BD5?style=flat-square" /></td>
+    <td><a href="https://exiftool.org/">ExifTool</a></td>
+    <td>Metadata engine by Phil Harvey</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/file__picker-555555?style=flat-square" /></td>
+    <td><code>file_picker</code></td>
+    <td>Native file picker dialog</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/desktop__drop-555555?style=flat-square" /></td>
+    <td><code>desktop_drop</code></td>
+    <td>Drag and drop support</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/flutter__svg-555555?style=flat-square" /></td>
+    <td><code>flutter_svg</code></td>
+    <td>SVG rendering</td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/path-555555?style=flat-square" /></td>
+    <td><code>path</code></td>
+    <td>Cross-platform path handling</td>
+  </tr>
+</table>
 
 ---
 
