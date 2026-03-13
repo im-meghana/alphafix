@@ -53,7 +53,7 @@ AlphaFix fixes this using [ExifTool](https://exiftool.org/) under the hood.
   <tr>
     <td align="center" width="200">
       <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" /><br/><br/>
-      <a href="https://github.com/im-meghana/alphafix/releases/latest">
+      <a href="[https://github.com/im-meghana/alphafix/releases/latest](https://github.com/im-meghana/alphafix/releases/download/v1.0.0/AlphaFix.1.0.0.dmg)">
         <img src="https://img.shields.io/badge/Download-.dmg-FF6B35?style=flat-square" alt="Download dmg" />
       </a>
     </td>
