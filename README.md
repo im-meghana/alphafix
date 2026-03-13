@@ -4,7 +4,7 @@
 
 <h1>AlphaFix</h1>
 
-<p>Repair video metadata lost during re-encoding — dates, GPS, camera info, all fixed in seconds.</p>
+<p>Repair video metadata lost during re-encoding - dates, GPS, camera info, all fixed in seconds.</p>
 
 <p>
   <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS" />
@@ -81,7 +81,7 @@ xattr -dr com.apple.quarantine /Applications/AlphaFix.app
 
 3. Launch AlphaFix normally from Launchpad or Finder
 
-> The `xattr` command removes the quarantine flag — it does not disable Gatekeeper system-wide.
+> The `xattr` command removes the quarantine flag - it does not disable Gatekeeper system-wide.
 
 ---
 
@@ -89,31 +89,31 @@ xattr -dr com.apple.quarantine /Applications/AlphaFix.app
 
 <table>
   <tr>
-    <td>**Full Metadata Transfer**</td>
+    <td><b>Full Metadata Transfer</b></td>
     <td>Copy date, GPS, camera model, make and lens from original to re-encoded file</td>
   </tr>
   <tr>
-    <td>**UTC Timestamp Fix**</td>
+    <td><b>UTC Timestamp Fix</b></td>
     <td>Fix wrong dates in Ente, Google Photos, iCloud without touching a second file</td>
   </tr>
   <tr>
-    <td>**Batch Mode**</td>
-    <td>Process a whole folder at once — files matched by filename, any extension</td>
+    <td><b>Batch Mode</b></td>
+    <td>Process a whole folder at once - files matched by filename, any extension</td>
   </tr>
   <tr>
-    <td>**Auto Rename**</td>
+    <td><b>Auto Rename</b></td>
     <td>Rename output to <code>YYYY-MM-DD_HH-MM-SS - cameraname.ext</code> after fixing</td>
   </tr>
   <tr>
-    <td>**Drag &amp; Drop**</td>
+    <td><b>Drag &amp; Drop</b></td>
     <td>Drop files or folders straight onto the input areas</td>
   </tr>
   <tr>
-    <td>**Live Console**</td>
+    <td><b>Live Console</b></td>
     <td>See exactly what ExifTool is doing in real time</td>
   </tr>
   <tr>
-    <td>**Cross-Platform**</td>
+    <td><b>Cross-Platform</b></td>
     <td>macOS, Windows and Linux</td>
   </tr>
 </table>
@@ -190,28 +190,28 @@ sudo snap install exiftool
 
 ## How to Use
 
-### Single — transfer metadata after re-encoding
+### Single - transfer metadata after re-encoding
 
 1. Drop your **original camera file** into the **INPUT** slot
 2. Drop your **re-encoded file** into the **OUTPUT** slot
 3. Optionally enable **Rename after fixing** and enter your camera name
 4. Click **Fix Metadata**
 
-### Single — fix UTC timestamp only
+### Single - fix UTC timestamp only
 
-Use this when your video shows the **wrong date in Ente, Google Photos or iCloud** but looks fine locally. This is a common Sony camera issue — the local time tag is correct but cloud services read the UTC-based QuickTime tag.
+Use this when your video shows the **wrong date in Ente, Google Photos or iCloud** but looks fine locally. This is a common Sony camera issue - the local time tag is correct but cloud services read the UTC-based QuickTime tag.
 
 1. Select the **same file** for both INPUT and OUTPUT
 2. AlphaFix shows a **UTC-fix mode** banner
-3. Click **Fix Metadata** — rewrites the QuickTime UTC tag in-place, no second file needed
+3. Click **Fix Metadata** - rewrites the QuickTime UTC tag in-place, no second file needed
 
-### Batch — process a whole folder
+### Batch - process a whole folder
 
-> Files are matched by base filename only. The extension can differ — `A001.MP4` will match `A001.mov`.
+> Files are matched by base filename only. The extension can differ - `A001.MP4` will match `A001.mov`.
 
 1. Switch to the **BATCH** tab
 2. Select your **Originals folder** and **Encoded folder**
-3. Optionally select an **Output folder** — leave empty to fix in-place
+3. Optionally select an **Output folder** - leave empty to fix in-place
 4. Click **Run Batch Fix**
 
 ---
