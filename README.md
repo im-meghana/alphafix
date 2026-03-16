@@ -63,7 +63,8 @@ AlphaFix fixes this using [ExifTool](https://exiftool.org/) under the hood.
     </td>
     <td align="center" width="200">
       <img src="https://img.shields.io/badge/Linux-E95420?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" /><br/><br/>
-      <img src="https://img.shields.io/badge/Coming-Soon-555555?style=flat-square" alt="Coming soon" />
+      <a href="https://github.com/im-meghana/alphafix/releases/download/v1.0.0/AlphaFix.v1.0.0.deb">
+      <img src="https://img.shields.io/badge/Download-.deb-FF6B35?style=flat-square" alt="Download" />
     </td>
   </tr>
 </table>
